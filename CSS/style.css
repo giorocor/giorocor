@@ -186,14 +186,14 @@ section{
 
 .html{
     grid-area: html;
-    background-image: url(../IMAGES/html.png);
+    background-image: url(..tree/master/IMAGES/html.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .css{
     grid-area: css;
-    background-image: url(../IMAGES/css.png);
+    background-image: url(..tree/master/IMAGES/css.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -201,7 +201,7 @@ section{
 
 .js{
     grid-area: js;
-    background-image: url(../IMAGES/js.png);
+    background-image: url(..tree/master/IMAGES/js.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
