@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Devoloved</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link id="css" rel="stylesheet" href="CSS/styleTwo.css">
+        <link rel="icon" href="IMAGES/icono2.PNG">
+
+    </head>
+
+    <body>
+        <header id="header">
+            <div class="logo"></div>       
+            <span class="icon-menu"></span>
+            <button onclick="changeCss()">Change Layout</button>
+        </header>
+
+        <nav class="">
+            <ul>
+                <li><a href="#sobreMi">Sobre mi</a></li>
+                <li><a href="#devoloved">Sobre devoloved</a></li>
+               <li><a href="#misConocimientos">Mis Conocimientos</a></li>
+               <li><a href="#header">Portafolio</a>
+                   <ul class="list-menu">
+                       <li><a href="portafolio3.html">Practice Grid</a></li>
+                       <li><a href="juego/index.html">Simon Say</a></li>
+                   
+                   </ul>
+               </li>
+           
+            </ul>
+            
+        </nav>
+
+        <main>
+                <section id="misConocimientos">
+                    <h2>Mis conocimientos</h2>
+                    <div class="one">
+                     <a class="html" ></a>
+                     <progress class="barHtml" value="3" max="5"></progress>
+                     <a class="css" ></a>
+                     <progress class="barCss" value="3" max="5"></progress>
+                     <a class="js" ></a>   
+                     <progress class="barJs" value="2" max="5"></progress>          
+                    </div>
+                </section>
+                <section id="devoloved" class="two">
+                    <h2>Acerca de esta pagina</h2>
+                    <div> <p><strong>DEVOLOVED</strong> es la compocision entre la palabra desarrollador, developed y
+                    amado o amor, loved, lo que se traduciria como amor a la programacion. Ademas
+                    de esto la palabra devoloved tiene otra carateristica y es que es un palindromo.
+                    Esta pagina va ser el lugar donde convertire en realidad los conocimientos que adquiera
+                    en programacion.</p> </div>
+                </section>
+
+                <section id="portafolio" class="three"></section>
+
+                <section id="sobreMi" class="four">
+                    <h2>Sobre mi</h2>
+                    <div><p>Me llamo Giovanny, soy de Cali, Colombia, me gradue de la universidad en Contabilidad y Finanzas y he desarrollado
+                    mi profesion en areas de nomina, contabilidad, costo y presupuesto, sin embargo a lo largo de esta trayectoria
+                    he tenido una experiencia en comun, mi afan por automatizar procesos y tareas, por tal motivo me inicie
+                    en el mundo de la programacion desde EXCEL con el aplicativo VBA y con esto me he dado cuenta que me gustaba mas 
+                    programar y desde entonces he iniciado una carrera autodidacta por aprender lo necesario para ser un 
+                    buen desarrollador web. Actualmente he adquirido conocimiento en Git, GitHub, HTML y CSS, poco a poco voy mejorando en JavaScript y
+                    ahora mi nuevo reto es ir aprendiendo muy bien Backend.</p></div>
+                </section>
+
+        </main>
+
+        <footer>
+            <div id="logFoot">
+                <a href="https://www.instagram.com/giorocor"><span class="icon-instagram"></span></a>
+                <a href="https://github.com/giorocor"><span class="icon-github"></span></a>
+                
+            </div> 
+            <h3>Develoved by <strong class="nickname">Giorocor</strong> <a id="wap" href="https://wa.me/34722255472">WhatsApp</a></h3>
+        </footer>
+
+
+        <script src="index.js"></script>
+        <script>
+            const menu_buttom = document.querySelector('.icon-menu');
+            const menu_nav = document.querySelector('nav');
+
+            menu_buttom.addEventListener('click', function() {menu_nav.classList.toggle('is-active')})
+
+            console.log(menu_buttom);
+
+            // function nohidden(){
+            //     if (menu_nav.classList.contains('is-active')){
+            //     menu_nav.classList.remove('is-active')}
+            //     else{
+            //     menu_nav.classList.add('is-active')}
+            // };
+
+        </script>
+    </body>
+
+
+</html>
