@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="283" height="281" viewBox="0 0 283 281">
+  <defs>
+    <clipPath id="clip-Mesa_de_trabajo_1">
+      <rect width="283" height="281"/>
+    </clipPath>
+  </defs>
+  <g id="Mesa_de_trabajo_1" data-name="Mesa de trabajo – 1" clip-path="url(#clip-Mesa_de_trabajo_1)">
+    <g id="Rectángulo_1" data-name="Rectángulo 1" transform="translate(21 24)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="241" height="54" stroke="none"/>
+      <rect x="0.5" y="0.5" width="240" height="53" fill="none"/>
+    </g>
+    <g id="Rectángulo_2" data-name="Rectángulo 2" transform="translate(21 114)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="241" height="54" stroke="none"/>
+      <rect x="0.5" y="0.5" width="240" height="53" fill="none"/>
+    </g>
+    <g id="Rectángulo_3" data-name="Rectángulo 3" transform="translate(21 204)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="241" height="54" stroke="none"/>
+      <rect x="0.5" y="0.5" width="240" height="53" fill="none"/>
+    </g>
+  </g>
+</svg>
