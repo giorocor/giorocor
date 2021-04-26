@@ -25,7 +25,7 @@ https://giorocor.github.io/giorocor/
 |Herramientas          	|Tecnologías      |	Dependencias|
 | :---:  | :---: | :---:  |
 |VSCode               |	CSS            	||
-|                |HTML	            ||
+|Git                |HTML	            ||
 |                   |JavaScript       ||
 
 
