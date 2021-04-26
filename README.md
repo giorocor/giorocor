@@ -17,7 +17,7 @@ Aqui trato de iniciar mi primera pagina con los conocimientos y habilidades que 
 ###  2. Link a un demo con el proyecto desplegado:
 
 ```
-https://giorocor.github.io/giorocor/
+[GITTT](https://giorocor.github.io/giorocor/)
 ```
 ###   3. Lista de herramientas para el desarrollo de la APP:
 
